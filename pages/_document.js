@@ -14,7 +14,21 @@ export default class MyDocument extends Document {
   render() {
     return (
       <html>
-        <Head>{this.props.styleTags}</Head>
+        <Head>
+          <meta charSet="utf-8" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="author" content="Deam" />
+          <meta name="description" content="Deam's personal site" />
+          <meta
+            name="keywords"
+            content="Deam,JavaScript,Node.js,React.js,Laco"
+          />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1.0"
+          />
+          {this.props.styleTags}
+        </Head>
         <body>
           <Main />
           <NextScript />
