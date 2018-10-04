@@ -225,7 +225,7 @@ export default () => (
                 - I contributed to the initial version but then later rewrote
                 everything from scratch using React, Next.js, styled-components
                 and Firebase. It now uses MetaMask to authenticate users and is
-                live here.
+                live <Link href="https://fame.giveth.io/">here</Link>.
               </Text>
             </li>
             <li>
