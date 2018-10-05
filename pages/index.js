@@ -170,7 +170,7 @@ export default () => (
         <Skill>Javascript</Skill>
         <Skill>Typescript</Skill>
         <Skill>Node.js</Skill>
-        <Skill>React</Skill>
+        <Skill>React.js</Skill>
         <Skill>React Native</Skill>
         <Skill>Redux</Skill>
         <Skill>Next.js</Skill>
