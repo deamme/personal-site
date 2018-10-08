@@ -20,15 +20,14 @@ injectGlobal`
     box-sizing: inherit;
     overflow-wrap: break-word;
     margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   }
 `
 
 const Section = styled.section`
   ${space};
 `
-
-const systemFonts = `font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
-sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';`
 
 const Container = styled.div`
   margin: 0 auto;
@@ -38,7 +37,6 @@ const Container = styled.div`
 `
 
 const Name = styled.h1`
-  ${systemFonts};
   font-size: 30px;
   font-weight: 600;
   text-transform: uppercase;
@@ -46,28 +44,24 @@ const Name = styled.h1`
 `
 
 const Title = styled.p`
-  ${systemFonts};
   font-weight: 300;
   color: #323336;
   margin-bottom: 0.5rem;
 `
 
 const Text = styled.p`
-  ${systemFonts};
   ${space};
   font-weight: 300;
   color: #323336;
 `
 
 const SubText = styled.p`
-  ${systemFonts};
   ${space};
   font-weight: 300;
   color: #96999b;
 `
 
 const Category = styled.h2`
-  ${systemFonts};
   ${space};
   font-size: 12px;
   text-transform: uppercase;
@@ -76,7 +70,6 @@ const Category = styled.h2`
 `
 
 const SubTitle = styled.h3`
-  ${systemFonts};
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1.2px;
@@ -108,13 +101,11 @@ const Skill = styled.li`
   background-color: #f1f5f7;
   margin-right: 3px;
   margin-bottom: 12px;
-  ${systemFonts};
   font-size: 14px;
   font-weight: 300;
 `
 
 const Link = styled.a`
-  ${systemFonts};
   transition: box-shadow 160ms ease 0s;
   box-shadow: rgb(238, 251, 255) 0px -9px 0px inset;
   border-bottom: 2px solid rgb(207, 243, 255);
