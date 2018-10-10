@@ -184,20 +184,6 @@ export default () => (
       <Ul>
         <Li>
           <SubTitle>
-            <Link href="https://github.com/Giveth/planning-app">
-              Aragon Planning Suite
-            </Link>
-          </SubTitle>
-          <SubText>Frontend Developer | June, 2018 – Current</SubText>
-          <Text>
-            "A suite of aragonOS apps that includes allocation, range voting,
-            issue curation, and other planning tools so DAOs can collectively
-            budget and design custom reward & bounty systems." - This project is
-            a collaboration between people from Giveth and Space Decentral.
-          </Text>
-        </Li>
-        <Li>
-          <SubTitle>
             <Link href="https://giveth.io/">Giveth</Link>
           </SubTitle>
           <SubText>Full Stack Developer | Mar, 2018 – Current</SubText>
@@ -239,6 +225,20 @@ export default () => (
               </Text>
             </li>
           </Highlights>
+        </Li>
+        <Li>
+          <SubTitle>
+            <Link href="https://github.com/Giveth/planning-app">
+              Aragon Planning Suite
+            </Link>
+          </SubTitle>
+          <SubText>Frontend Developer | June, 2018 – Oct, 2018</SubText>
+          <Text>
+            "A suite of aragonOS apps that includes allocation, range voting,
+            issue curation, and other planning tools so DAOs can collectively
+            budget and design custom reward & bounty systems." - This project is
+            a collaboration between people from Giveth and Space Decentral.
+          </Text>
         </Li>
         <Li>
           <SubTitle>
