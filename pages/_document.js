@@ -18,7 +18,11 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="author" content="Deam" />
-          <meta name="description" content="Deam's personal site" />
+          <meta name="title" content="Deam's personal site" />
+          <meta
+            name="description"
+            content="Deam's site acting as a resume/CV"
+          />
           <meta
             name="keywords"
             content="Deam,JavaScript,Node.js,React.js,Laco"
